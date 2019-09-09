@@ -1,0 +1,311 @@
+body{
+  margin:0;
+  width: 100%;
+}
+
+/*section1 تقسيم الصفحة*/
+
+.head{
+       padding:1%;
+       background-color: #009999;
+     width:100%;
+     
+     
+     
+       }
+ footer {
+  height:20%;
+  width:100%;
+    color: white;
+    background-color: #009999;
+    text-align: center;
+  
+	
+	
+	   }
+.section1{
+    color:#009999;
+    max-width: 100%;
+    height: 650px;
+    margin: 20px;
+    padding: 0em;
+	}
+/*للتسجيل في اخر الصفحة واللايك*/
+
+ .end a:link, a:visited {
+	font-weight:bold;
+	font-size:25px;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+  text-decoration: underline;
+
+   
+	
+}
+
+
+.end a:hover, a:active {
+   color:#009999;
+}
+
+
+/* اعدل على الصوره مكانها طولها وعرضها */
+.img {
+	 position: absolute;
+     left: 32%;
+     top: 4%;
+     z-index: 1;
+	 height:100px;
+	 width:100px;
+     }
+
+ 
+.special {
+	font-family: italic,sans-serif;
+	color:#009999;
+	text-align:center;
+	font-size:200%; /* ابي اغير الحجم على تغير الشاشه*/
+	
+
+
+       }
+    
+    
+
+/*section2 for the navigation list */
+.hul {
+      margin:10px 50px 5px 250px;
+      background-color: white;
+     }
+   
+.firs {
+    float: left;
+    font-size:15px;
+     }
+
+     .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+/* اذااسم الكلاس جا بعده a او اسم الكلاس الثاني  */
+.firs a,.dropbtn {
+    display: inline-block;
+    color: #5c5c3d;
+    text-align:center;
+    padding: 14px 7px;
+    text-decoration: none;
+	font-size:20px;
+	
+                }
+
+.firs a:hover, .dropdown:hover .dropbtn {
+    background-color:#f1f1f1;
+                                     }
+
+.firs,.dropdown {
+    display: inline-block;
+            }
+
+.dropdown-content {
+    display: none;
+    position: absolute; 
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1000;
+                   }
+				   
+
+.dropdown-content a {
+    color:#5c5c3d;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+                     }
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+                                  }
+/*section3 تعديل على تصميم محرك البجث*/
+input[type=search] {
+    width: 1px;
+    box-sizing: 9px;
+    border: 2px solid #ccc;
+    border-radius: 1px;
+    font-size: 16px;
+    background-color: white;
+    background-image:url('../img/searchicon.png');
+    background-position: 0.1px 0.1px; 
+	  background-size: 25px 25px;
+    background-repeat: no-repeat;
+    padding: 12px 2px 1px 90px;
+  margin: 15px 15px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.9s ease-in-out;
+                   }
+
+input[type=search]:focus {
+    width: 250px;
+                       }
+
+
+					   
+/* Caption text */
+
+.slide1{
+  color: whitesmoke;
+}
+
+
+.slide2{
+color: whitesmoke;
+}
+
+
+.slide3{
+color:#009999;
+}
+
+.text {
+  font-size: 25px;
+   /* عشان drop down menu تصير فوق */
+  position:absolute;
+  top: 40%;
+  font-weight:bold;
+ width: 100%;
+ text-align: center;
+
+}
+.images{
+  width:100%;
+  height:480px;
+ 
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: gray;
+  font-size:12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 40%;
+  
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation يعمل نفس الظل والسلايد يتحرك  */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+
+/*section5 design pages*/
+.hh1 {color:#3973ac; text-align:center ;font-style:oblique,italic
+}
+
+.hh3 {color:#2d862d
+}
+
+.hh4{color:#b30086
+	
+}
+
+.hdd {color:#a3297a
+}
+
+.hbody{ 
+}
+
+.hli {color:#33adff
+}
+
+
+.pimg {position: absolute;
+     left: 32%;
+     top: 10%;
+     z-index: -1;
+	 height:95px;
+	 width:95px;
+     }
+ /*our mission page*/
+ .background_imageOM { position:relative;
+                      top: 20px; 
+					  left: 0px;
+					  
+					  width:250px;
+					  }
+ .text_pageOM {   color: #194d19;
+                  font-size: 40px;
+                  position:absolute;
+                  top:10%;
+                  padding: 6px;
+                  margin-top: 2px;
+                  bottom: 1px;
+                 font-weight:bolder;					  
+				}
+
+/*our misiion design page*/
+.navOM {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+.articleOM {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+}
+
+
+.foterr{
+  color: white;
+}
+
