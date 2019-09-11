@@ -9,11 +9,9 @@
 
 
 </head>
-
+<div class="allsiize">
 <body>
-  <!-- for  audio also autoplay when the page is load-->
-   
-      
+
   
     <!--يسوي لي بلوك للicon bar -->
     
@@ -46,7 +44,7 @@
       <li class="firs dropdown"><a href="" class="droptn">Knowledge</a>
         <div class="dropdown-content">
           <a href="blogs.html">Blogs</a>
-          <a href="" class="droptn">Useful information for your life</a>
+          <a href="information.html" class="droptn">Useful information for your life</a>
         </div>
       </li>
       <li class="firs"><a href="resources.html">Resources</a></li>
@@ -64,11 +62,12 @@
   </nav>
 </header>
 
-<audio autoplay loop>
-    <source src="relax.ogg" type="audio/ogg">
-    <source src="./relax.mp3" type="audio/mpeg">
+<iframe src="./relax.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe> 
+<audio autoplay loop  id="playAudio">
+  <source src="./relax.mp3">
+</audio>
   
-  </audio>
 
 
 
@@ -140,4 +139,5 @@ i.e. the ability to store memories.
 
 
 </body>
+</div>
 </html>

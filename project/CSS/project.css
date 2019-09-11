@@ -1,9 +1,18 @@
 body{
   margin:0;
+  padding: 0;
+}
+
+allsize{
+  height: 100%;
   width: 100%;
 }
 
+
 /*section1 تقسيم الصفحة*/
+a:hover{
+  color: gray;
+}
 
 .head{
        padding:1%;
@@ -54,10 +63,11 @@ body{
 .img {
 	 position: absolute;
      left: 32%;
-     top: 4%;
+     top:6%;
      z-index: 1;
-	 height:100px;
-	 width:100px;
+	 height:80px;
+   width:80px;
+  
      }
 
  
@@ -75,7 +85,7 @@ body{
 
 /*section2 for the navigation list */
 .hul {
-      margin:10px 50px 5px 250px;
+      margin:20px 50px 5px 250px;
       background-color: white;
      }
    
@@ -230,7 +240,7 @@ color:#009999;
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+
 
 
 /*section5 design pages*/
@@ -254,12 +264,13 @@ color:#009999;
 }
 
 
-.pimg {position: absolute;
-     left: 32%;
-     top: 10%;
+.pimg {
+  position: absolute;
+     left: 50%;
+     top: 50%;
      z-index: -1;
-	 height:95px;
-	 width:95px;
+	 height:55%;
+	 width:44%;
      }
  /*our mission page*/
  .background_imageOM { position:relative;
@@ -302,10 +313,10 @@ nav ul a {
     overflow: hidden;
 }
 
-}
 
 
 .foterr{
   color: white;
 }
+
 
