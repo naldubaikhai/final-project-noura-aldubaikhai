@@ -38,7 +38,12 @@ a:hover{
     height: 650px;
     margin: 20px;
     padding: 0em;
-	}
+    font-family: 'Chilanka', cursive;
+    
+  }
+  .section2{
+    font-family: 'Chilanka', cursive;
+  }
 /*للتسجيل في اخر الصفحة واللايك*/
 
  .end a:link, a:visited {
@@ -72,7 +77,7 @@ a:hover{
 
  
 .special {
-	font-family: italic,sans-serif;
+  font-family: 'Chilanka', cursive;
 	color:#009999;
 	text-align:center;
 	font-size:200%; /* ابي اغير الحجم على تغير الشاشه*/
@@ -312,7 +317,6 @@ nav ul a {
     padding: 1em;
     overflow: hidden;
 }
-
 
 
 .foterr{
